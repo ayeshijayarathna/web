@@ -1,0 +1,204 @@
+body {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/* Do Not Change Navbar CSS Without Asking */
+
+/* NAVBAR CSS  */
+.navbar {
+  border-radius: 25px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 170, 0);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav-link:hover {
+  color: rgb(255, 119, 0);
+}
+
+.fw-bold {
+  color: rgb(255, 255, 255);
+}
+
+.fs-5 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.dropdown-item {
+  color: white;
+}
+/* END OF NAVBAR CSS  */
+
+/*-------------------movie page---------------------------------------------*/
+.heading h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 270px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: rgb(7, 10, 20);
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #C4CAC4;
+  border-radius: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: rgb(247, 210, 4);
+  color: rgb(11, 2, 2);
+  padding: 10px;
+  display: block;
+  margin: 20px 90px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  
+
+}
+
+.card:hover {
+  background-color: rgb(130, 124, 143);
+  transition: 1s all ease;
+  transform: scale(1.10);
+}
+
+.card p {
+text-align: center;
+color: aliceblue;
+margin: 4%;
+font-size: 20px;
+}
+
+.movie1 {
+align-items: center;
+height: 500px;
+width: 500px;
+}
+/*--------------------------------movie detail------------------------------------------*/
+.moviedetails{
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(7, 6, 6);
+padding: 4% 8%;
+gap: 10em;
+}
+.movimg img{
+position: relative;
+box-shadow: 0 0 25px rgb(196, 151, 74),
+            0 0 50px rgb(250, 227, 22);
+width: 600px;
+height: 600px;
+border-radius: 20px;
+}
+.movcont h2{
+text-align: left;
+color: rgb(251, 192, 45);
+font-size: 50px;
+}
+.movcont h5{
+font-size: 15px;
+color: rgb(251, 192, 45);
+}
+.movcont P{
+color:rgb(255, 253, 231);
+margin:2em 0 3em;
+font-size: 20px;
+}
+/*-----------------------------------------Cinema section----------------------------------------------------------*/
+.cinema{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(11, 11, 11);
+  padding: 4% 8%;
+  gap: 10em;
+}
+ .heading h1{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+.cinemaimg img{
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+.ccont h2{
+  text-align: left;
+  color: rgb(253, 216, 53);
+  font-size: 50px;
+}
+.ccont h5{
+  font-size: 20px;
+  color: rgb(255, 253, 231);
+}
+.ccont p{
+  color:rgb(249, 248, 248);
+  margin:2em 0 3em;
+  font-size: 15px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+/*--------------------------------------------responsive img gallery---------------------------------------------*/
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.heading h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-right: 15px;
+  margin-top: 45px;
+  padding: 4% 4%;
+}
